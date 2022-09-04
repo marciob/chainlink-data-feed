@@ -16,7 +16,7 @@ async function main() {
   await deployedConsumerDataFeedPrices.deployed();
 
   // print the address of the deployed contract
-  console.log("Contract Address: ", consumerDataFeedPrices.address);
+  console.log("Contract Address: ", deployedConsumerDataFeedPrices.address);
 
   console.log("Waiting for etherscan verification.....");
   // Wait for etherscan to notice that the contract has been deployed
